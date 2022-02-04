@@ -1,24 +1,15 @@
-# README
+# Aleksander Ruby Api Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação consiste em uma unica rota GET recebendo o nome de uma cidade, com este parametro é feita a busca pelo clima e em seguida feito um tweet com essa info.
 
-Things you may want to cover:
+Procedimentos para rodar a api:
 
-* Ruby version
+* preencher as chaves no arquivo local_env.yml
 
-* System dependencies
+* Rodar os tests de integração weather_controller_test.rb
 
-* Configuration
+* Utilizar qualquer método possivel para realizar a requisição: http://0.0.0.0:3000/weather/index?city=nome_da_cidade
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Gems utilizadas:
+* openweathermap
+* twitter

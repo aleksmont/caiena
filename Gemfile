@@ -46,3 +46,6 @@ group :development do
   # gem "spring"
 end
 
+gem 'openweathermap', '~> 0.2.3'
+
+gem 'twitter'
